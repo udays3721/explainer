@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Generated Text</title>
+</head>
+<body>
+    <div id="output"></div>
+
+    <script>
+        // listen for messages from the background script
+        chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+            // display the generated text in the output div
+            document.getElementById('output').textContent = request.generatedText;
+        });
+    </script>
+</body>
+</html>

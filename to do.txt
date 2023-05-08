@@ -1,0 +1,6 @@
+select the text 
+put the option of chatgpt on context menu
+open hamburger menu when mouse hovers on chatgpt(google does this automatically) 
+    explain -explains the selected text
+    ask - opens a dialogue box in which user can ask a question about selected text
+also saves every command that user sends as notes in the toolbar menu
